@@ -4,8 +4,8 @@
     --green: hsl(150, 100%, 63%);
     --purple-900: hsl(273, 85%, 13%);
     --purple-500: hsl(271, 12%, 34%);
-    --purple-100: hsl(276, 100, 99);
-    --white: hsl(0, 0, 100);
+    --purple-100: hsl(276, 100%, 99%);
+    --white-color: hsl(0, 0%, 100%);
     --font-family-fraunces: "Fraunces", serif;
     --font-family-manrope: "Manrope", sans-serif;
 }
@@ -53,4 +53,33 @@ button {
 header {
     background: var(--purple-900);
     padding: 1.875rem 1.25rem;
+    width: 100%;
+}
+
+.nav_section {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white-color);
+}
+
+.nav_section a {
+    color: var(--white-color);
+    text-decoration-color: var(--green);
+    text-decoration-thickness: 0.4rem;
+    text-underline-offset: 0.7rem;
+}
+
+.text_intro {
+    width: 90%;
+    margin: 3rem auto;
+}
+
+.text_intro h1 {
+    color: var(--white-color);
+    text-align: center;
+    line-height: 3rem;
+    font-size: 2.5rem;
 }
