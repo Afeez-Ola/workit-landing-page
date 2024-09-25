@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+:root {
+    --green: hsl(150, 100%, 63%);
+    --purple-900: hsl(273, 85%, 13%);
+    --purple-500: hsl(271, 12%, 34%);
+    --purple-100: hsl(276, 100, 99);
+    --white: hsl(0, 0, 100);
+    --font-family-fraunces: "Fraunces", serif;
+    --font-family-manrope: "Manrope", sans-serif;
+}
+
+.fraunces {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "SOFT"0, "WONK"0;
+}
+
+.manrope {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--white);
+    -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+    font-size: 18px;
+    font-family: var(--font-family-manrope);
+}
+
+button {
+    cursor: pointer;
+}
