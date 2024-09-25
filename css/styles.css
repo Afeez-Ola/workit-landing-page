@@ -33,6 +33,10 @@
 body {
     background: var(--white);
     -webkit-font-smoothing: antialiased;
+    width: 100%;
+    /* margin: auto; */
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body,
@@ -52,8 +56,9 @@ button {
 
 header {
     background: var(--purple-900);
-    padding: 1.875rem 1.25rem;
-    width: 100%;
+    /* padding: 1.875rem 1.25rem; */
+    padding-top: 1.875rem;
+    /* position: fixed; */
 }
 
 .nav_section {
@@ -63,6 +68,13 @@ header {
     justify-content: space-between;
     align-items: center;
     color: var(--white-color);
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.nav_section img,
+.nav_section a {
+    max-width: 100%;
 }
 
 .nav_section a {
@@ -75,6 +87,11 @@ header {
 .text_intro {
     width: 90%;
     margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .text_intro h1 {
@@ -82,4 +99,17 @@ header {
     text-align: center;
     line-height: 3rem;
     font-size: 2.5rem;
+}
+
+.text_intro a {
+    background: var(--green);
+    text-decoration: none;
+    color: var(--purple-900);
+    padding: 1rem 2rem;
+}
+
+.mobile_image {
+    position: relative;
+    top: 4rem;
+    margin: auto;
 }
