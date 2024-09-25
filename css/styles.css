@@ -144,3 +144,14 @@ header {
     font-family: var(--font-family-fraunces);
     font-size: 1.5rem;
 }
+
+.early_access_plus_founder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.early_access {
+    background: var(--purple-900);
+}
