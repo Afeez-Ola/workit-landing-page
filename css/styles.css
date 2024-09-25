@@ -132,14 +132,14 @@ header {
     margin: auto;
 }
 
-.actionable {
+.about_product_boys {
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
 }
 
-.actionable h3 {
+.about_product_boys h3 {
     color: var(--purple-900);
     font-family: var(--font-family-fraunces);
     font-size: 1.5rem;
