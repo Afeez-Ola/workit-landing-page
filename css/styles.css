@@ -42,6 +42,15 @@ button {
     font-family: var(--font-family-manrope);
 }
 
+img {
+    max-width: 100%;
+}
+
 button {
     cursor: pointer;
+}
+
+header {
+    background: var(--purple-900);
+    padding: 1.875rem 1.25rem;
 }
