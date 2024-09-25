@@ -113,3 +113,21 @@ header {
     top: 4rem;
     margin: auto;
 }
+
+.about_product {
+    margin: 10rem auto;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    border: var(--purple-900) 1px solid;
+    border-radius: 50%;
+    width: 10%;
+    margin: auto;
+}
