@@ -107,6 +107,11 @@ header {
     padding: 1rem 2rem;
 }
 
+#bg_pattern_1,
+#bg_pattern_2 {
+    display: none;
+}
+
 .mobile_image {
     position: relative;
     top: 4rem;
@@ -128,7 +133,6 @@ header {
 .number {
     border: var(--purple-900) 1px solid;
     border-radius: 50%;
-    /* width: 8%; */
     width: 2rem;
     height: 1.7rem;
     margin: auto;
@@ -220,9 +224,24 @@ footer {
 }
 
 @media screen and (min-width:30rem) {
+    .text_intro {
+        width: 50%;
+    }
     .mobile_image {
         width: 70%;
         display: flex;
+    }
+    #bg_pattern_1 {
+        display: block;
+        position: absolute;
+        left: -10rem;
+        top: 5rem;
+    }
+    #bg_pattern_2 {
+        display: block;
+        position: absolute;
+        top: 20rem;
+        left: 38rem;
     }
     .about_product_boys {
         flex-direction: row;
@@ -259,11 +278,25 @@ footer {
     }
 }
 
-@media screen and (min-width: 50rem) {
+@media screen and (min-width: 60rem) {
+    .text_intro {
+        width: 40%;
+    }
+    .text_intro h1 {
+        font-size: 5rem;
+    }
+    .mobile_image {
+        width: 50%;
+    }
     .about_product {
         flex-direction: row;
         padding-inline: 0;
-        /* margin-top: 15rem; */
+    }
+    #bg_pattern_2 {
+        display: block;
+        position: absolute;
+        top: 20rem;
+        left: 72rem;
     }
     .about_product_boys {
         flex-direction: column;
