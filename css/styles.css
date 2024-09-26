@@ -189,3 +189,21 @@ header {
     color: var(--purple-900);
     padding: 1rem 2.5rem;
 }
+
+footer {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.social_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
