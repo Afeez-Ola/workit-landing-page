@@ -304,6 +304,10 @@ footer {
     .about_product_boys_notes {
         text-align: center;
     }
+    .about_product_boys_notes p {
+        width: 80%;
+        margin: auto;
+    }
     .number {
         width: 2rem;
     }
