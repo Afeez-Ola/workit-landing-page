@@ -11,8 +11,8 @@ This is a solution to the [Workit landing page challenge on Frontend Mentor](htt
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Afeez-Ola/workit-landing-page)
+- Live Site URL: [Add live site URL here](https://workit-landing-page-a4fdxo1v7-bolaji-olas-projects.vercel.app/)
 
 ## My process
 
@@ -30,8 +30,8 @@ This is a solution to the [Workit landing page challenge on Frontend Mentor](htt
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Afeez Mobolaji](https://hashnode.com/@Mobolaji)
+- Frontend Mentor - [@Afeez-Ola](https://www.frontendmentor.io/profile/Afeez-Ola)
+- Twitter - [@mobolaji___]([mobolaji](https://x.com/mobolaji___))
 
 
