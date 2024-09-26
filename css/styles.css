@@ -217,6 +217,10 @@ footer {
 }
 
 @media screen and (min-width:30rem) {
+    .mobile_image {
+        width: 70%;
+        display: flex;
+    }
     .about_product_boys {
         flex-direction: row;
     }
@@ -249,5 +253,17 @@ footer {
     }
     .social_icons {
         width: 30%;
+    }
+}
+
+@media screen and (min-width: 50rem) {
+    .about_product {
+        flex-direction: row;
+    }
+    .about_product_boys {
+        flex-direction: column;
+    }
+    .number {
+        width: 2rem;
     }
 }
