@@ -213,7 +213,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
+    width: 30%;
 }
 
 @media screen and (min-width:30rem) {
@@ -243,5 +243,11 @@ footer {
         position: relative;
         bottom: 7rem;
         left: 3rem;
+    }
+    footer {
+        margin-top: 6rem;
+    }
+    .social_icons {
+        width: 30%;
     }
 }
