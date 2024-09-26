@@ -259,11 +259,22 @@ footer {
 @media screen and (min-width: 50rem) {
     .about_product {
         flex-direction: row;
+        padding-inline: 0;
+        /* margin-top: 15rem; */
     }
     .about_product_boys {
         flex-direction: column;
     }
+    .about_product_boys_notes {
+        text-align: center;
+    }
     .number {
         width: 2rem;
+    }
+    footer {
+        padding-top: 3rem;
+    }
+    .social_icons {
+        width: 10%;
     }
 }
