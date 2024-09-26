@@ -59,6 +59,7 @@ button {
 
 header {
     background: var(--purple-900);
+    /* clip-path: ellipse(100% 70% at 50% 30%); */
     padding-top: 1.875rem;
 }
 
@@ -110,6 +111,7 @@ header {
     position: relative;
     top: 4rem;
     margin: auto;
+    z-index: 10;
 }
 
 .about_product {
@@ -158,6 +160,7 @@ header {
     align-items: center;
     width: 100%;
     margin: auto;
+    padding-top: 7rem;
 }
 
 .founder_image {
