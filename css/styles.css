@@ -38,7 +38,6 @@ body {
     background: var(--white);
     -webkit-font-smoothing: antialiased;
     width: 100%;
-    /* margin: auto; */
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -166,7 +165,27 @@ header {
 .early_access {
     background: var(--purple-900);
     width: 80%;
-    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    bottom: 2.3rem;
 }
 
-.early_access h2 {}
+.early_access h2 {
+    margin-top: 2rem;
+}
+
+.early_access p {
+    width: 90%;
+}
+
+.early_access a {
+    background: var(--green);
+    text-decoration: none;
+    color: var(--purple-900);
+    padding: 1rem 2.5rem;
+}
