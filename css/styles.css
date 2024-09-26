@@ -23,6 +23,10 @@
     font-style: normal;
 }
 
+.color_white {
+    color: var(--white-color);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -56,9 +60,7 @@ button {
 
 header {
     background: var(--purple-900);
-    /* padding: 1.875rem 1.25rem; */
     padding-top: 1.875rem;
-    /* position: fixed; */
 }
 
 .nav_section {
@@ -67,7 +69,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: var(--white-color);
     max-width: 100%;
     box-sizing: border-box;
 }
@@ -78,7 +79,6 @@ header {
 }
 
 .nav_section a {
-    color: var(--white-color);
     text-decoration-color: var(--green);
     text-decoration-thickness: 0.4rem;
     text-underline-offset: 0.7rem;
@@ -95,7 +95,6 @@ header {
 }
 
 .text_intro h1 {
-    color: var(--white-color);
     text-align: center;
     line-height: 3rem;
     font-size: 2.5rem;
@@ -150,8 +149,24 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.founder_image {
+    width: 80%;
+    display: flex;
+}
+
+.founder_image img {
+    width: 80%;
+    margin: auto;
 }
 
 .early_access {
     background: var(--purple-900);
+    width: 80%;
+    padding: 1rem 3rem;
 }
+
+.early_access h2 {}
